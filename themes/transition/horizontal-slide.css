@@ -2,8 +2,8 @@
   overflow-x: hidden;
 }
 .csstransitions.csstransforms .deck-container > .slide {
-  -webkit-transition: -webkit-transform 500ms ease-in-out;
-  transition: transform 500ms ease-in-out;
+  -webkit-transition: -webkit-transform 10ms ease-in-out;
+  transition: transform 10ms ease-in-out;
 }
 .csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide {
   position: absolute;
@@ -14,8 +14,8 @@
   position: relative;
   left: 0;
   top: 0;
-  -webkit-transition: -webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out;
-  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+  -webkit-transition: -webkit-transform 10ms ease-in-out, opacity 10ms ease-in-out;
+  transition: transform 10ms ease-in-out, opacity 10ms ease-in-out;
 }
 .csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide .deck-next, .csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide .deck-after {
   visibility: visible;
