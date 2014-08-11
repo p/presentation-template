@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $content = `slimrb slides.slim`;
+my $content = `slimrb -p slides.slim`;
 print $!;
 
 open FH, '<boilerplate.html' or die "Can't open boilerplate: $!";
